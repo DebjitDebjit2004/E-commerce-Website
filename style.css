@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo i {
+    display: none;
+}
+
+.first-head {
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    font-size: 1rem;
+
+}
+
+.first-head div {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.first-head div a {
+    color: white;
+    font-size: 1rem;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+
+}
+
+.logo {
+    margin: 1.2rem;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.nav-options {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.nav-options li {
+    list-style: none;
+}
+
+.nav-options a {
+    color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    border-radius: 1rem;
+
+
+}
+
+.nav-options a:hover {
+    border: 1px solid black;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+}
+
+.search-box {
+    flex: 1;
+    margin: 1.5rem;
+
+}
+
+.search-box i {
+    padding: 0.7rem;
+    background-color: black;
+    color: white;
+    border-radius: 0rem 1rem 1rem 0rem;
+
+}
+
+#search-plate {
+    width: 80%;
+    padding: 0.6rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1rem 0rem 0rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.icon-box {
+    margin: 2rem;
+}
+
+.icon-box i {
+    margin-left: 1rem;
+    font-size: 1.1rem;
+}
+
+.main-div {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 244, 244);
+    flex-wrap: wrap;
+}
+
+.details-div h1 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.details-div p {
+    margin-bottom: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.details-div button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    border: none;
+    margin-bottom: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.details-div button:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    letter-spacing: 0.1rem;
+}
+
+.main-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    margin-right: 2rem;
+    padding-right: 1rem;
+    border-right: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.first {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.second {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#div4 {
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    border-bottom: 2px solid white;
+}
+
+#div4 li {
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    position: sticky;
+    bottom: 0;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+#search-icon {
+    opacity: 0;
+
+}
+
+#check {
+    display: none;
+}
+
+.menu-btn i {
+    opacity: 0;
+}
+
+.photo-div img {
+    width: 100%;
+    filter: drop-shadow(0px 0px 16px #000);
+}
+
+.arrivals-btn button {
+    background-color: white;
+    border: 2px solid black;
+    color: rgb(0, 0, 0);
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.arrivals-btn button:hover {
+    border: 2px solid black;
+}
+
+.arrivals-btn button i {
+    margin-left: 1rem;
+    font-size: 1rem;
+}
+
+
+
+.sell h1 {
+    color: white;
+}
+
+.sell-section{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+.sell-section h1{
+    margin: 1rem;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    padding: 3rem;
+    flex-wrap: wrap;
+}
+footer h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    
+}
+#icon-div{
+    display: flex;
+    justify-content: space-around;
+}
+footer i{
+    font-size: 1.5rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+footer i:hover{
+    transform: scale(1.5);
+}
+footer li{
+    list-style: none;
+    margin: 1rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.footer-div{
+    margin: 1rem;
+}
+@media (max-width: 850px) {
+    .menu-btn i {
+        opacity: 1;
+        color: rgb(0, 0, 0);
+        position: absolute;
+        top: 15px;
+        left: 30px;
+        transition: 0.8s;
+        font-size: 2rem;
+    }
+
+    .first-head {
+        display: none;
+    }
+
+    .logo i {
+        display: contents;
+        font-size: 2rem;
+    }
+
+    .main-navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 300px;
+        height: 100vh;
+        position: absolute;
+        left: -350px;
+        background: rgb(23, 22, 22);
+        box-shadow: 0px 0px 16px rgb(255, 255, 255);
+        transition: 1s;
+    }
+
+    #check:checked~.main-navbar {
+        position: absolute;
+        left: 0px;
+        z-index: 1;
+    }
+
+
+    .nav-options {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+
+    .logo {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-options li a {
+        font-size: 2rem;
+        color: white;
+    }
+
+    .icon-box i {
+        color: white;
+    }
+
+    .details-div {
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .main-box {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .photo-div {
+        margin: 1rem;
+    }
+
+    .icon-box {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .nav-options {
+        width: 100%;
+        margin: 0;
+    }
+
+    .nav-options li {
+        border: 2px solid white;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        width: 98%;
+        box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.8);
+        border-radius: 1rem;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .box {
+        margin: 0;
+        border-right: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+        margin-bottom: 1rem;
+    }
+
+    .first-head {
+        justify-content: left;
+    }
+
+    .cross-icon {
+        display: none;
+    }
+
+    #div4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 1200px) {
+    .search-box {
+        display: none;
+    }
+
+    #search-icon {
+        opacity: 1;
+    }
+
+}
